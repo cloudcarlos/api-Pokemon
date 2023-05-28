@@ -1,4 +1,6 @@
 
+
+
 function idPokemonRandom() {
     const min = 1; //primer pokemon
     const max = 1010; // ultimo pokemon
@@ -49,7 +51,6 @@ function obtenerDescripcionPokemon(id){
     })
     .catch(error => console.error(error));
 }
-
 
 async function quienEsEsePokemon(){
     const id = idPokemonRandom();
